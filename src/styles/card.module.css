@@ -6,9 +6,46 @@
 }
 
 .card header {
-  padding: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: lighter;
+  padding: 1rem 0.75rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   background-color: var(--black);
   color: var(--white);
+}
+
+
+.card main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.75rem;
+}
+
+.headshot {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: var(--grey);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.details > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.card footer {
+  width: 100%;
+  padding: 1rem 0.75rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: var(--grey);
 }
