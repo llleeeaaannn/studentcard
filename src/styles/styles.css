@@ -42,3 +42,9 @@ h6,
 span {
   overflow-wrap: break-word;
 }
+
+/* Variables */
+:root {
+  /* Colours */
+  --green: rgba(16, 132, 108, 1);
+}

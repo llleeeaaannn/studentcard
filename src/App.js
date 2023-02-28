@@ -1,5 +1,6 @@
 import './styles/styles.css';
 import Home from './views/home';
+import Frank from './views/frank';
 import NotFound from './views/notfound';
 import ScrollToTop from './scripts/scrollToTop';
 import React, { useState } from 'react';
@@ -16,6 +17,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route exact path='/' element={<Home />} />
+        <Route exact path='/frank' element={<Frank />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </AppContext.Provider>
