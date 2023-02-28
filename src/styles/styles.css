@@ -47,4 +47,7 @@ span {
 :root {
   /* Colours */
   --green: rgba(16, 132, 108, 1);
+  --black: rgba(30, 30, 30, 1);
+  --white: rgba(250, 250, 250, 1);
+  --grey: rgba(230, 230, 230, 1);
 }
