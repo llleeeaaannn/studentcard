@@ -1,6 +1,5 @@
 .card {
   min-width: 20rem;
-  min-height: 30rem;
   border-radius: 0.5rem;
   background-color: var(--white);
 }
@@ -21,12 +20,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  gap: 0.75rem;
   padding: 0.75rem;
 }
 
 .headshot {
   width: 100%;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   background-color: var(--grey);
 }
 
@@ -35,11 +35,24 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  gap: 0.25rem;
 }
 
 .details > div {
   display: flex;
   flex-direction: row;
+  gap: 2.5%;
+  width: 100%;
+}
+
+.details span {
+  width: 42.5%;
+  text-align: right;
+  color: var(--darkGrey);
+}
+
+.details p {
+  width: 55%;
 }
 
 .card footer {
