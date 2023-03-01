@@ -11,10 +11,10 @@ const Card = ({ data }) => {
       </header>
 
       <main>
-        <img src='image' alt='erasmus logo'></img>
+        <img src='/images/erasmuslogo.png' alt='erasmus logo'></img>
 
         <div className={styles.headshot}>
-          <img src='image' alt='headshot'></img>
+          <img src='/images/testphoto.png' alt='headshot'></img>
         </div>
 
         <div className={styles.details}>

@@ -24,10 +24,24 @@
   padding: 0.75rem;
 }
 
+.card main img {
+  max-width: 15rem;
+}
+
 .headshot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
-  border-radius: 0.25rem;
+  padding: 1rem;
+  border-radius: 0.15rem;
   background-color: var(--grey);
+}
+
+.headshot img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
 }
 
 .details {
