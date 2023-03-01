@@ -7,47 +7,47 @@ const Card = ({ data }) => {
   return (
     <div className={styles.card}>
       <header>
-        <h2>Economics and Business 2023</h2>
+        <h2>{ data.degreeWithYear }</h2>
       </header>
 
       <main>
         <img src='/images/erasmuslogo.png' alt='erasmus logo'></img>
 
         <div className={styles.headshot}>
-          <img src='/images/testphoto.png' alt='headshot'></img>
+          <img src={ data.photo } alt='headshot'></img>
         </div>
 
         <div className={styles.details}>
           <div>
             <span>Student</span>
-            <p>F.D. Pierce</p>
+            <p>{ data.name }</p>
           </div>
 
           <div>
             <span>Date of Birth</span>
-            <p>13-07-1998</p>
+            <p>{ data.dateofbirth }</p>
           </div>
 
           <div>
             <span>Student ID</span>
-            <p>596240</p>
+            <p>{ data.studentID }</p>
           </div>
 
           <div>
             <span>Degree Programme</span>
-            <p>Economics and Business</p>
+            <p>{ data.degree }</p>
           </div>
 
           <div>
             <span>Academic Year</span>
-            <p>2022-2023</p>
+            <p>{ data.year }</p>
           </div>
         </div>
 
       </main>
 
       <footer>
-        <span>Valid from 01-09-2022 to 31-08-2023</span>
+        <span>Valid from { data.validFrom } to { data.validTo }</span>
       </footer>
     </div>
   )
