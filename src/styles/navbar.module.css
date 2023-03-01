@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.navbar svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--white);
+}
