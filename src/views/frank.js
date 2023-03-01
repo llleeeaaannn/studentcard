@@ -2,6 +2,7 @@ import styles from '../styles/page.module.css';
 import { useState, useEffect, useContext } from 'react';
 import { AppContext } from '../App';
 import Card from '../components/card';
+import Navbar from '../components/navbar';
 
 const Frank = () => {
 
@@ -9,6 +10,7 @@ const Frank = () => {
 
   return (
     <div className={styles.page}>
+      <Navbar />
       <Card />
     </div>
   )
