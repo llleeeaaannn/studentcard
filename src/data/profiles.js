@@ -12,7 +12,7 @@ const template = {
 const frankData = {
   name: 'F. D. Pierce',
   dateofbirth: '13-07-1998',
-  studentID: '596240',
+  studentID: '486230',
   degree: 'Economics and Business',
   degreeWithYear: 'Economics and Business 2023',
   year: '2022-2023',

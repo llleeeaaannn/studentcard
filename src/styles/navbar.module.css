@@ -11,4 +11,12 @@
   width: 2rem;
   height: 2rem;
   fill: var(--white);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+.navbar svg:hover,
+.navbar svg:active  {
+  transform: scale(1.05);
+  transition: all ease-in-out 300ms;
 }
