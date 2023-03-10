@@ -6,6 +6,31 @@ const Menu = () => {
 
   return (
     <div className={styles.menu}>
+      <nav className={styles.nav}>
+        <div>
+          <h3>Menu</h3>
+        </div>
+
+        <div>
+          <span>Home</span>
+        </div>
+
+        <div>
+          <span>Profile</span>
+        </div>
+
+        <div>
+          <span>Timetable</span>
+        </div>
+
+        <div>
+          <span>Courses</span>
+        </div>
+
+        <div>
+          <span>Contact</span>
+        </div>
+      </nav>
     </div>
   )
 }
