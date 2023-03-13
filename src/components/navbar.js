@@ -4,11 +4,11 @@ import { AppContext } from '../App';
 
 const Navbar = () => {
 
-  const { random } = useContext(AppContext);
+  const { menu, setMenu } = useContext(AppContext);
 
   return (
     <div className={styles.navbar}>
-      <svg viewBox="0 0 512 512">
+      <svg viewBox="0 0 512 512" onClick={() => setMenu(!menu)}>
         <path d="M80 96h352v32H80zm0 144h352v32H80zm0 144h352v32H80z"/>
       </svg>
 
