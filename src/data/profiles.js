@@ -21,4 +21,4 @@ const frankData = {
   photo: '/images/frankphoto.jpg'
 }
 
-export { frankData }
+export { template, frankData }
