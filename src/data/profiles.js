@@ -18,7 +18,7 @@ const frankData = {
   year: '2022-2023',
   validFrom: '01-09-2022',
   validTo: '31-08-2023',
-  photo: '/images/testphoto.png'
+  photo: '/images/frankphoto.jpg'
 }
 
 export { frankData }

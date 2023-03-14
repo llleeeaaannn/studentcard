@@ -17,7 +17,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route exact path='/frank' element={<Frank />} />
+        <Route exact path='/profile' element={<Frank />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </AppContext.Provider>
